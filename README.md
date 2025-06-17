@@ -1,4 +1,3 @@
-# SQLite-MCP-Server_Leave-Management
 # LeaveManagement MCP Server
 
 A simple leave-management service using FastMCP and SQLite.
