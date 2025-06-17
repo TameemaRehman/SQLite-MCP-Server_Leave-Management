@@ -19,22 +19,13 @@ A simple leave-management service using FastMCP and SQLite.
 
 ## Running
 
-Start the server:
+Start the server on command prompt, by getting into the proper folder hierarchy using cd:
 
 ```bash
-python server.py
+uv run mcp install server.py
 ```
-
-It will listen on `http://0.0.0.0:8000`.
 
 ## Basic Usage
 
-* **List all requests**: `GET /tool/list_leaves`
-* **Create request**: `POST /tool/create_leave` with JSON `{ "employee_name": "Name", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD", "reason": "..." }`
-* **Get a request**: `GET /resource/leave://<id>`
-* **Update status**: `POST /tool/update_leave` with JSON `{ "leave_id": <id>, "status": "Approved" }`
-* **Delete request**: `POST /tool/delete_leave` with JSON `{ "leave_id": <id> }`
+Run on Claude Desktop, after enabling the Developer Mode on Claude. Write your prompts regarding your mock data and get your desired outputs.
 
----
-
-*Auto-generated basic README*
